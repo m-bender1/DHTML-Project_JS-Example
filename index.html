@@ -1,0 +1,28 @@
+<!--
+   Matt Bender
+   JS spreadsheet project
+   November 10, 2020
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Matt Bender - Spreadsheet Project</title>
+   <link rel="stylesheet" href="styles.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body onload="generateTable();">
+   <div class="form">
+      <button id="resetBtn">Reset All</button><!--clear sheet btn-->
+      <button id="clearBtn">Clear Form</button><!--unselect all btn -->
+      <input class="fa fa-plus" type="text" id="selectedCell" readonly />
+      <input type="text" id="userInput" placeholder="Enter Data..."/>
+   </div>
+   <div id="tblDiv"></div>
+   <script src="script.js"></script>
+</body>
+
+</html>

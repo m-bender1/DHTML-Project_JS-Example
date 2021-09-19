@@ -1,0 +1,107 @@
+body {
+   font-family: 'Source Sans Pro', sans-serif;
+   background-color: #222831;
+   max-width: 100%;
+   margin: 10px;
+}
+
+.form {
+   margin: 5px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+tbody {
+   background-color: #2b3441;
+   border: 2px solid #2b3441;
+   border-radius: 5px;
+}
+
+table {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-spacing: 0;
+   overflow-x: hidden;
+}
+
+th, .baseCol {
+   text-align: center;
+   font-size: 18px;
+   background-color: #1F1F1F;
+   color:  #c700b6;
+   padding: 2px;
+   font-weight: 600;
+}
+
+th, .alphaCol {
+   width: 90px;
+   overflow-x: hidden;
+   padding: 2px; 
+   /* set anything bigger than 120px to scroll */
+   max-width: 120px;
+   overflow-x: auto;
+}
+
+.alphaCol:hover {
+   background-color: #c700b6;
+}
+
+.alphaCol {
+   border: 1px solid  #1F1F1F;
+   color: #c7c7c7;
+   font-size: 15px;
+   padding: 3px;
+}
+
+#selectedCell {
+   width: 5%; /* textbox width */
+   padding: 2px;
+}
+
+#clearBtn {
+   margin:0em 3em 0em 1em;
+   display: flex;
+}
+
+#resetBtn {
+   margin: 0;
+}
+
+#resetBtn, #clearBtn {
+   border: 2px solid #2b3441;
+   background-color: #222831;
+   color: #c7c7c7;
+   padding: 3px;
+   font-weight: 700;
+}
+
+#resetBtn:hover, #clearBtn:hover {
+   background-color: #c7c7c7;
+   color: #222831;
+}
+
+#userInput {
+   width: 150px;
+   padding: 2px;
+   margin: 2px;
+   /* set to expand on focus*/
+   transition: width 0.4s ease-in-out;
+}
+
+#userInput, #selectedCell {
+   background-color: #2b3441;
+   color:  #c7c7c7;
+   font-weight: 700;
+}
+
+#userInput:focus {
+   width: 360px;
+}
+
+
+
+
