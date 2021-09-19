@@ -1,2 +1,2 @@
 # DHTML-Project
-Dynamically generated HTML table
+Dynamically generated HTML table.
